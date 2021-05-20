@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ItemStock {
-	private Map<String, Integer> itemMap = new HashMap<>();
+	private static Map<String, Integer> itemMap = new HashMap<>();
 	
 	public int getNum(Item item) {
 		Integer num = itemMap.get(item.getName());
