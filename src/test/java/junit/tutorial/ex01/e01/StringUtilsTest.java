@@ -41,5 +41,4 @@ class StringUtilsTest {
 	void test3() {
 		assertEquals("practice_junit", StringUtils.toSnakeCase("practiceJunit"), "エラー:practiceJunit失敗");
 	}
-	// エラーなし → 設定した期待値通りに処理されたってことかな？
 }
